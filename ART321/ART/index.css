@@ -34,6 +34,7 @@ body {
 
 }
 .assigContainer button{
+    margin-bottom: 50px; 
     cursor: default; 
     background: none; 
     color: white; 
@@ -63,6 +64,8 @@ body {
 
 #footer{
     background: black; 
+    margin: 0; 
+    padding: 0px; 
     position: fixed; 
     bottom: 0; 
     width: 100%; 
