@@ -1,0 +1,112 @@
+/*
+    CHRISTIAN VELASCO
+    ID:10159288
+*/
+
+body{
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+}
+canvas{
+    border: 1px solid black; 
+}
+
+.container{
+    position: relative;
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px; 
+}
+.br-space{
+    margin-bottom: 70px; 
+}
+.link-active {
+    position: fixed;
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 0; 
+    left: 0; 
+    top:0; 
+}
+.link-active a{
+    color:black; 
+    font-size: 2em; 
+    border: none; 
+    border-bottom: 2px solid purple; 
+    text-decoration: none; 
+}
+.link-active a:hover{
+    color:purple;
+    font-weight: bold;  
+}
+
+
+
+.title{
+    width: 80%; 
+    -position: rlativee;
+    margin-left: auto;
+    margin-right: auto;
+    color:purple; 
+    font-size: 2em;  
+    border-bottom: 2px solid black; 
+}
+.gif-list{
+    background:none; 
+    list-style-type: none;
+    height: 400px;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    -position: relative;
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+.gif-list li{
+    margin: 10px; 
+}
+.gif-list img {
+    width: 250px; 
+    height: 250px;
+    border: 2px solid black; 
+}
+.gif-list img:hover{
+    width: 350px; 
+    height: 350px;
+}
+
+.cnt10{
+    margin-bottom: 50px; 
+}
+.cnt10 a{
+    padding: 10px; 
+    color: black; 
+    border: 2px solid purple; 
+    margin: 10px; 
+    text-decoration: none; 
+}
+.cnt10 a:hover{
+    color:purple; 
+    background: purple;
+}
+
+
+#footer{
+    background: rgba(0, 0, 0, 0.397); 
+    margin: 0; 
+    padding: 0px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    }
+#footer h5{
+    text-align: right; 
+    color:back; 
+    margin: 0; 
+    padding: 10px; 
+}
