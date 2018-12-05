@@ -1,0 +1,78 @@
+body{
+    text-align: center; 
+    margin: 0;
+    margin-top: 20px;  
+}
+
+.link-active {
+    
+    position: fixed;
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 0; 
+    left: 0; 
+    top:0; 
+}
+.link-active a{
+    color:black; 
+    font-size: 2em; 
+    border: none; 
+    border-bottom: 2px solid purple; 
+    text-decoration: none; 
+}
+.link-active a:hover{
+    color:purple;
+    font-weight: bold;  
+}
+
+.container{
+    position: relative;
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px; 
+    width: 90%; 
+    border-bottom: 2px solid black; 
+    z-index: -1;
+}
+
+.con2 {
+    text-align: left; 
+}
+
+.imag img{
+    width: 200px; 
+    height: 70px;
+
+}
+.Ass-specs{
+    -color:blue; 
+}
+.list-specs{
+    text-align: left; 
+}
+
+.Ass-specs ol{
+    text-align: left; 
+}
+
+.nueve{
+    font-size: 2em; 
+    color: purple; 
+}
+
+#footer{
+    background: rgba(0, 0, 0, 0.397); 
+    margin: 0; 
+    padding: 0px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    }
+#footer h5{
+    text-align: right; 
+    color:back; 
+    margin: 0; 
+    padding: 10px; 
+}

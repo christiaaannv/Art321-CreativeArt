@@ -34,6 +34,10 @@ body{
     color: purple; 
 }
 
+.Ass-specs ol{
+    text-align: left; 
+}
+
 .br-space{
     margin-bottom: 70px; 
 }
